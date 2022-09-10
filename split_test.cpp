@@ -44,18 +44,18 @@ int main ()
 	}
 
 
-	delete[] Node1;
-	delete[] Node2;
-	delete[] Node3;
-	delete[] Node4;
-	delete[] Node5;
-	delete[] Node6;
-	delete[] Node7;
-	delete[] Node8;
-	delete[] Node9;
-	delete[] Node10;
-	delete[] Node11;
-	delete[] Node12;
+	delete Node1;
+	delete Node2;
+	delete Node3;
+	delete Node4;
+	delete Node5;
+	delete Node6;
+	delete Node7;
+	delete Node8;
+	delete Node9;
+	delete Node10;
+	delete Node11;
+	delete Node12;
 
 
 }
