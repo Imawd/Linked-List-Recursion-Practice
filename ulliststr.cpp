@@ -2,7 +2,6 @@
 #include <stdexcept>
 #include "ulliststr.h"
 
-using namespace std;
 
 ULListStr::ULListStr()
 {
@@ -32,9 +31,9 @@ void ULListStr::push_back(const std::string& val)
 	if (tail_ == NULL)
   {
     tail_ = new Item();
-    tail_->last = 1;
+    tail_->last = 1; //set first and last to beginning
     tail_->first = 0;
-    tail_->val[tail_->first] = val;
+    tail_->val[tail_->first] = val; 
     head_ = tail_;
     size_++;
   }
